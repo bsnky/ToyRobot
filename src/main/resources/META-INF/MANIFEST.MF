@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: Nattasit Modaram
+Main-Class: cs.spotpayment.gateway.maven.MavenBuilder
+Class-Path: lib/lib1.jar lib/lib2.jar
+

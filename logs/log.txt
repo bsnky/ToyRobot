@@ -1,0 +1,51 @@
+D:\Program FIles\Eclipse24\projects\Internal\Develop1\ToyRobot>init-git.cmd
+=====================================
+ Initializing Git Repository
+=====================================
+Creating README.md...
+Creating .gitignore...
+Creating .gitattributes...
+Creating .editorconfig...
+Initialized empty Git repository in D:/Program FIles/Eclipse24/projects/Internal/Develop1/ToyRobot/.git/
+[main (root-commit) 8db9571] Initial project structure
+ 5 files changed, 288 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 pom.xml
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 2.39 KiB | 2.39 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bsnky/ToyRobot.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+=====================================
+ Git initialization completed
+=====================================
+Press any key to continue . . .
+
+D:\Program FIles\Eclipse24\projects\Internal\Develop1\ToyRobot>java -jar ./target/ToyRobot-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+Toy Robot Console App
+Commands: PLACE X,Y,F | MOVE | LEFT | RIGHT | REPORT | EXIT
+Table: 5x5 (X,Y in 0..4)
+
+==: PLACE 0,0,NORTH
+MOVE
+REPORT
+==: ==: 0,1,NORTH
+==: PLACE 1,2,EAST
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
+==: ==: ==: ==: ==: 3,3,NORTH
+==: PLACE 0,0,NORTH
+LEFT
+REPORT
+==: ==: 0,0,WEST
+==:

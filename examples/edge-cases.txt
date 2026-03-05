@@ -1,0 +1,21 @@
+# Commands before valid PLACE should be ignored
+MOVE
+LEFT
+REPORT
+
+# Invalid PLACE is ignored
+PLACE 9,9,NORTH
+MOVE
+REPORT
+
+# Valid PLACE activates robot
+PLACE 4,4,NORTH
+MOVE  # would fall -> ignored (unknown due to comment, but still robust)
+MOVE
+REPORT
+
+# rotate + move within bounds
+RIGHT
+MOVE
+REPORT
+
