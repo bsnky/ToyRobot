@@ -68,3 +68,26 @@ Output:
 ```
 3,3,NORTH
 ```
+
+#### Option A: Run with Maven (recommended)
+```bash
+mvn -q test
+mvn -q package
+```
+
+Run from a file:
+```bash
+java -jar ./target/ToyRobot-0.0.1-SNAPSHOT-jar-with-dependencies.jar examples/example-c.txt
+```
+
+Run from standard input:
+```bash
+java -jar ./target/ToyRobot-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+```
+Then type commands line-by-line and press Enter. Use `EXIT` to quit.
+
+#### Option B: Compile in IDE
+```bash
+Git clone the repository
+Go to "com.toyrobot.ToyRobotApp" then run the main Application
+```
