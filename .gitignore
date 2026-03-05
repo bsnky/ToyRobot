@@ -1,0 +1,36 @@
+# ===== Java / Maven / Open Liberty ===== 
+target/ 
+*.class 
+*.jar 
+*.war 
+*.ear 
+ 
+# ===== Gradle ===== 
+build/ 
+.gradle/ 
+ 
+# ===== IDEs ===== 
+.classpath 
+.project 
+.settings/ 
+.idea/ 
+*.iml 
+.vscode/ 
+ 
+# ===== CI / Jenkins ===== 
+.jenkins/ 
+*.pipeline 
+ 
+# ===== Logs / Temp ===== 
+*.log 
+*.tmp 
+ 
+# ===== OS ===== 
+.DS_Store 
+Thumbs.db 
+ 
+# ===== Secrets ===== 
+.env 
+*.key 
+*.pem 
+*.jks 
